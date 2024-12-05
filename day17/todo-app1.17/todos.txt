@@ -2,5 +2,6 @@ eat
 sleep
 code
 repeat
-skydiving
+Learn Devops
 Learn Python
+Get Certified
