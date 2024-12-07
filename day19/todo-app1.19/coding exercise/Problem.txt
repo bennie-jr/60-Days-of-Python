@@ -1,0 +1,8 @@
+Your task for this exercise is to add a new feature to the webcam Streamlit app we built in today's bonus example video.
+You need to add a feature to that program that allows users to upload an image from their computer files.
+Then, the app converts the uploaded image to grayscale and displays it.
+
+
+Hint: You can use uploaded_image = st.file_uploader("Upload Image") to create a "Browse File" component.
+
+The end product should be as shown in the screenshot in this folder.
