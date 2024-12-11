@@ -4,4 +4,4 @@ code
 repeat
 Learn Devops
 Learn Python
-Get Certified
+Fini
