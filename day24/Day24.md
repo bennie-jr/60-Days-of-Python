@@ -16,7 +16,7 @@ various methods of the FPDF modules to adjust and set contents of the header and
 this app, and it worked like it should.
 
 
-Also, I completed a [side-project](SP-Lined-PDF) where I built on the pdf maker app to create a lined pdf document. The 
+Also, I completed a [side-project](SP-Lined-PDF-1) where I built on the pdf maker app to create a lined pdf document. The 
 pdf document I created earlier had a blank body but this time I added lines to aid with writing making it appear like 
 a regular notebook or notepad. I used more nested for loops to help me achieve this. 
 
