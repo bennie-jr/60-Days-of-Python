@@ -1,0 +1,15 @@
+### DAY 35: App 8 - NLP(Natural Language Processing) for eBooks Python(Part 2)
+
+Today, I finished building app number 8 which is NLP for ebooks. 
+
+Recap on what I did yesterday. I started working on app number 8. To be able to build app 8 , I needed to understand what regular expressions were and that is mostly what I did today. I used the jupyter notebook to work today together with a txt file of a book called "Miracle in the Andes". I learned about RegEx and did a few exercises like using regex to get a number of chapters, extract certain sentences etc and I ended the day working on a side project which was mainly more regular expression exercises. Today, I actually worked on the
+main part of the NLP. I imported the nltk package which is the python library for NLP and I used the a method in the nltk package to get words that are articles since I need to get the most words from the list of all word in the book except articles. I used regex to get all the articles and used a for loop to get the list of words that are not articles and the number of times they appear. I was able to get the most used words in the book and the count.
+
+Next, I had to do sentiment analysis on every chapter in the book to get the sense of the tone of the story if it was more of a positive or negative tone. I used regex to first get all the contents of each chapter separated then I used SentimentIntensityAnalyzer() and polarity_scores() methods to get the polarity scores of each chapter. The polarity scores gives the scores in a dictionary of negative,positive, neutral and compound scores.
+With this I was able to get a grasp of NLP and was able to complete app number 8.
+
+Also, I did a [side-project](./SP-Visualize-Mood-Across-Days/) where I looped through a folder of txt files which are basically diaries of specific days and then get sentiment analysis of the data, plot graphs of positive and negative scores against the dates of the diaries. I used streamlit for this application together with the NLP library to help complete this project. I used glob to get the multiple txt files and the path method to extract only the date from the filenames. The sort method helped me sort the files and the dates. I used the nltk library with the sentiment analysis and the polarity scores to get the positive and negative scores. I was able to complete this project and streamlit page rendered exactly what the app was supposed to look like. 
+
+Finally, I learned more about the applications of NLP for example google maps using nlp to detect hate language from reviews or social media apps monitoring harmful language with NLP or your emailing app being able to select which emails are spam or not using NLP etc.
+
+All in all, day 35 was good, I am learning more and more each day. I will start building app number 9 tomorrow.
