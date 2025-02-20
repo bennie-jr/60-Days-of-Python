@@ -1,6 +1,6 @@
 ### DAY 50: Build a Web App with Flask Python (Part 1) 
 
-Today, I working on web development. I started building app 14 which is a Job Application Form built with flask.
+Today, I worked on web development. I started building app 14 which is a Job Application Form built with flask.
 
 Recap on what I did yesterday. I built a Web Automation tool with Selenium. I imported the selenium library with its various methods. I used the selenium driver to load the webpage. I inspected the webpage I was using to get the html element id in the html code in order for my code to use it to fill the needed parameters on the webpage. After getting all the ids, I was able to write the code to login using my login details I provided. Once the login was done the tool was able to click on the form, fill it and submit the form on the website. After testing the code and making sure it works, I converted the code I had written to OOP and after I used tkinter for the GUI interface. 
 

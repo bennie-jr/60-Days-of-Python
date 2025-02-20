@@ -1,0 +1,5 @@
+.venv
+.venv/
+.env
+instance/
+.webassets-cache
