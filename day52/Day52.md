@@ -1,4 +1,4 @@
-### DAY 52: Build a Web App with Django Python (Part 2) 
+### DAY 52: Build a Web App with Django Python (Part 1) 
 
 Today, I continued to work on web development. I started building app 15 which is a Job Application Form built with django.
 
