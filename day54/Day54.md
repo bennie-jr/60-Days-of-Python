@@ -1,0 +1,9 @@
+### DAY 54: Build a Web App with Django Python (Part 3) 
+
+Today, I continued to work on web development. I finished building app 15 which is a Job Application Form built with django.
+
+Recap on what I did yesterday. I wrote the code for the html of the app. I then proceed  to create a form model in a forms.py and this ApplicationForm class is there to help me extract the user data delivered in the POST request and store it in a variable. I used a django form module and the class inherited from this module. After this, I went ahead to store the data in the database. I referred to the Form class in the models.py by calling it in the views.py which contained most of the backend code and used an object.create method to store the data inside the database table. Finally I added the email feature to send the email to the user once the form has been submitted.
+
+Today, I added the final touches to the django app. I created an admin interface for the application. This a central panel where the admin has access to data that has been submitted on the site and in the database. This saves the admin the hassle of going into the database before finding user data. I created a class in the admin.py in my application folder to help me customize the admin interface. I addded search fields, filters, ordering etc to the admin interface. I also created a base template. This base template was for the frontend and this base template is basically to help me not repeat code. I moved all the html code that repeated in all the html files in the template and placed them in the base.html file which I called in all the other html files via jinja 2 code. I also added a nav bar to the base template html code. The nav bar helps to navigate to the different pages on the webpage without typing in the routes. I was able to complete this app and it works the way its supposed to.
+
+Day 54 was good, I am learning more and more each day.
